@@ -1,0 +1,49 @@
+#headerLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 20px 20px;
+}
+#dropDown{
+    display: none;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header>button{
+    height: 50%;
+    margin-top: 15px;
+    padding: 1px 1px;
+    border-radius: 5px;
+    border: 2px solid #29648A;
+}
+.header>button:hover{
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+a>p{
+    font-weight: 600;
+    padding: 2px 2px;
+    font-size: 20px;
+}
+
+a>img{
+    margin-top: -10px;
+    height: 50px;
+}
+
+@media all and (max-width:650px){
+    a>p{
+        display: none;
+    }
+    #dropDown{
+        display: block;
+        color: #29648A;
+    }  
+}
