@@ -11,7 +11,10 @@ Features:
 * Click on any movie card to get more details about the movie!
 * Switch between Dark and Light theme according to your preference!
 
-Screen Shots:
-* Home Page![Screenshot (345)](https://user-images.githubusercontent.com/104712880/208682291-45fc9dd0-4316-450f-bab6-821e8991b257.png)
-* Light Mode ![Screenshot (347)](https://user-images.githubusercontent.com/104712880/208682323-fa214a2c-c3fa-495a-b80f-036ca67f0e03.png)
-* Movie Details Page ![Screenshot (348)](https://user-images.githubusercontent.com/104712880/208683079-dbe5dfb4-f6d0-4da8-933b-cd019e79c479.png)
+Demo
+ 
+
+https://user-images.githubusercontent.com/104712880/209622193-1b30287a-3133-455e-ace7-8198ff868f3f.mp4
+
+
+
