@@ -14,7 +14,8 @@ Features:
 Demo
  
 
-https://user-images.githubusercontent.com/104712880/209622193-1b30287a-3133-455e-ace7-8198ff868f3f.mp4
+
+![mdb-demo](https://user-images.githubusercontent.com/104712880/210135646-94d3055d-c6ce-4ebb-9009-37fe6344369f.gif)
 
 
 
