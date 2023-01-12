@@ -11,6 +11,9 @@ Features:
 * Click on any movie card to get more details about the movie!
 * Switch between Dark and Light theme according to your preference!
 
+Features to add
+* Watch later list
+
 Demo
  
 
