@@ -8,9 +8,9 @@ const Movie = ({dark}) => {
     const { id } = useParams()
 
     useEffect(() => {
+        setMovie(null)
         getData()
-        window.scrollTo(0,50)
-    }, [])
+    }, [id])
 
     const getData = () => {
         fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=2f0504208b8b68dce9f789c80febfec7&language=en-US`)

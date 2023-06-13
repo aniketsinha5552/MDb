@@ -29,7 +29,7 @@ const MovieList = () => {
             <div className="list__cards">
                 {
                     movieList.map(movie => (
-                        <Card movie={movie} id={movie.id} />
+                        <Card movie={movie} id={movie.id} key={movie.id} />
                     ))
                 }
             </div>
