@@ -24,7 +24,7 @@ const Card = ({movie}) => {
         const search = watchlist.find((item) => item.movie_id == id)
         console.log("search",search,movie,watchlist)
         if(search){
-            alert("⚠️! Already in watchlist")
+            alert("⚠️! Already in watchlist ")
             return
         }
         else{
