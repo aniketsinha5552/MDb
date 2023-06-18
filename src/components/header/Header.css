@@ -4,6 +4,7 @@
     justify-content: space-evenly;
     width: 50%;
     padding: 20px 20px;
+    margin-top: 5px;
 }
 #dropDown{
     display: none;
@@ -17,14 +18,20 @@
 
 .header>button{
     height: 50%;
-    margin-top: 15px;
+    margin-top: 25px;
     padding: 1px 1px;
     border-radius: 5px;
-    border: 2px solid #29648A;
+    border: none;
+    background-color: transparent;
+
 }
 .header>button:hover{
     border-radius: 8px;
     cursor: pointer;
+}
+
+#navItem:hover{
+    color: rgb(29, 138, 138);
 }
 
 a>p{
@@ -56,6 +63,10 @@ a>img{
     height: 100px;
     margin-left: 10px;
     flex:0.6
+}
+
+#themeButton:hover{
+    background-color: rgb(29, 138, 138);
 }
 
 @media all and (max-width:650px){

@@ -8,13 +8,10 @@ import StarIcon from '@mui/icons-material/Star';
 import MovieList from '../../MovieList/MovieList';
 
 
-// popular api= "https://api.themoviedb.org/3/movie/popular?api_key=2f0504208b8b68dce9f789c80febfec7&language=en-US&page=1"
-// top rated = "https://api.themoviedb.org/3/movie/top_rated?api_key=2f0504208b8b68dce9f789c80febfec7&language=en-US&page=1"
-// upcoming= "https://api.themoviedb.org/3/movie/upcoming?api_key=2f0504208b8b68dce9f789c80febfec7&language=en-US&page=1"
 export default function Home({dark}) {
     const [popularMovies, setPopularMovies] = useState([])
     useEffect(()=>{
-       fetch("https://api.themoviedb.org/3/movie/popular?api_key=2f0504208b8b68dce9f789c80febfec7&language=en-US&page=1")
+       fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${process.env.REACT_APP_MOVIE_API_KEY}&language=en-US&page=1`)
        .then(res=>res.json())
        .then(data=>{
         setPopularMovies(data.results)
@@ -24,7 +21,7 @@ export default function Home({dark}) {
   return (
     <>
         <div className='poster' >
-         
+         <div className='carousel-poster'>
            <Carousel
             // Resposponsive carousel props 
               showThumbs={false}
@@ -33,6 +30,7 @@ export default function Home({dark}) {
               infiniteLoop={true}
               showStatus={false}
             >
+  
                {popularMovies.map((movie)=>{
                   return(
                     <Link style={{textDecoration:"none",color: dark? "#EAE7DC": "black"}} to={`/movie/${movie.id}`} key={movie.id}>
@@ -49,6 +47,7 @@ export default function Home({dark}) {
                   )
                })}
             </Carousel>
+            </div>
             <MovieList/>
            
         </div>

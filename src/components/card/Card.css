@@ -13,7 +13,7 @@
 }
 
 .cards:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
     z-index: 1000;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -21,6 +21,33 @@
 .cards__img {
     height: 300px;
 }
+
+#watch-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgb(31, 31, 71);
+    border:none;
+    border-radius: 5px;
+}
+#watch-btn:hover{
+    cursor: pointer;
+    background-color: rgb(68, 68, 99);
+}
+.know-more{
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+    background-color: rgb(31, 31, 71);
+    color: white;
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(68, 68, 99);
+    }
+}
+
 
 .cards__overlay {
     position: absolute;
@@ -34,6 +61,7 @@
     background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
     opacity: 0;
     transition: opacity .2s;
+    color: white;
 }   
 
 .cards__overlay:hover {
@@ -60,3 +88,4 @@
     font-size: .75rem;
     margin-bottom: 0.25rem;
 }
+

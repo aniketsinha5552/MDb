@@ -15,7 +15,8 @@
     height: 500px;
     object-fit:cover;
     object-position: 0 35%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    max-height: 500px;
 }
 
 .movie__detail {
@@ -23,7 +24,7 @@
     width: 75%;
     display: flex;
     position: relative;
-    bottom: 255px;
+    bottom: 150px;
 }
 
 .movie__detailLeft {
@@ -34,6 +35,8 @@
     width:250px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.86) 0px 22px 40px 6px;
+    position: relative;
+    bottom: 120px;
 }
 
 .movie__detailRight {
@@ -42,17 +45,28 @@
     flex-direction: column;
     height: 450px;
     justify-content:space-between ;
+    margin-top: 40px;
+}
+.movie__detailRightTop{
+    margin-top: 120px;
 }
 
 .movie__detailRightTop > div{
-    color: white;
-    text-shadow: 0px 0px 5px #000000;
-    margin-bottom: .5rem;
+    /* color: white;
+    text-shadow: 0px 0px 2px #000000; */
+    margin-bottom: .8rem;
 }
 
 .movie__name {
+    /* color: white;
+    text-shadow: 0px 0px 2px #000000; */
     font-weight: 600;
     font-size: 3rem;
+    text-decoration: underline;
+}
+
+.movie__tagline{
+    font-style: italic;
 }
 
 .movie__voteCount {
@@ -65,7 +79,7 @@
 
 .movie__genre {
     padding: .5rem;
-    border: 2px solid white;
+    border: 2px solid;
     border-radius: 20px;
     margin-right: 1rem;
 }
@@ -89,15 +103,21 @@
 }
 
 .movie__links {
-    position: relative;
-    bottom: 120px;
+    /* position: relative;
+    bottom: 120px; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 75%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .movie__heading {
     font-size: 2.2rem;
+    font-style: italic;
+    align-self: flex-start;
+    margin-left: 12%;
+    text-decoration: underline;
 }
 
 .movie__Button {
@@ -125,12 +145,38 @@
     margin-left: 1.4rem;
 }
 
+.production__heading {
+    font-size: 2.2rem;
+    align-self: flex-start;
+    margin-left: 12%;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
 .movie__production {
     width: 85%;
     display: flex;
+    margin-top: 2rem;
     justify-content: center;
     align-items: flex-end;
     margin-bottom: 4rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    max-width: 1000px;
+    &::-webkit-scrollbar {
+        width: 5px;
+      }
+      
+    &::-webkit-scrollbar-track {
+        background: #1f456e;
+      }
+      
+    &::-webkit-scrollbar-thumb {
+        background: #c5c6d0;
+        border: 2px solid #1f456e;
+        border-radius: 5px;
+      }
 }
 
 
