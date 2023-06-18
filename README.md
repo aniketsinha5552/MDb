@@ -7,6 +7,7 @@ A movie database website. Know all the details about your favourite movie like r
 
 ### Tech
 - React
+- API
 - Material UI
 - HTML, CSS, Javascript
 - Firebase/firestore
@@ -19,11 +20,11 @@ A movie database website. Know all the details about your favourite movie like r
 * Switch between Dark and Light theme according to your preference!
 
 
-Demo
- 
+![image](https://github.com/aniketsinha5552/MDb/assets/104712880/fa77c5d5-88cf-4f6e-aebd-9b11da3d57dd)
 
+![Screenshot (333)](https://github.com/aniketsinha5552/MDb/assets/104712880/2bf8d67a-6ca9-498e-9e2c-3b60c7ebee24)
+![image](https://github.com/aniketsinha5552/MDb/assets/104712880/2b2c4bc2-582a-4943-8d8b-556d7f6e0cd0)
 
-![mdb-demo](https://user-images.githubusercontent.com/104712880/210135646-94d3055d-c6ce-4ebb-9009-37fe6344369f.gif)
 
 
 
