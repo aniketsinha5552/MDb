@@ -1,18 +1,17 @@
-MDb : A IMDb clone website
+# MDb : A movie database app
 
-Live: https://mdb-movies.netlify.app/
+## https://mdb-movies.netlify.app/
 
-About
-* This website was created by Aniket Sinha using ReactJs. All the Data on this website is fetched from The Movies Database(TMDB) API. Follow me on social media for more React projects.
+### About
+A movie database website. Know all the details about your favourite movie like ratings and summary. Also get list of all the popular, top rated and latest movies.
 
 
-Features:
+### Features:
 * View list of Popular , Upcoming and Top Rated movies which is always getting updated!
 * Click on any movie card to get more details about the movie!
+* Search bar with autocomplete feature!
 * Switch between Dark and Light theme according to your preference!
 
-Features to add
-* Watch later list
 
 Demo
  
