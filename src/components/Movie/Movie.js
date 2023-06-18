@@ -102,7 +102,7 @@ const Movie = ({ dark }) => {
           <div className="movie__detailRightBottom">
             <div className="synopsisText">Synopsis</div>
             <div>{currentMovieDetail ? currentMovieDetail.overview : ""}</div>
-            <button onClick={addToWatchlist} className="watchlistAdd">Add to watchlist</button>
+            <button onClick={addToWatchlist} className="watchlistAdd"><Icon icon="ooui:watchlist-ltr" style={{ color: "white" }} />{" "}Add to watchlist</button>
           </div>
         </div>
       </div>
