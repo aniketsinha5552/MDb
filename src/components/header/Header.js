@@ -186,12 +186,14 @@ export default function Header({ dark, setDark }) {
         />
       </div>
       <IconButton
+        title="watchlist"
         id="watchlist"
         onClick={() => navigate("/watchlist")}
       >
         <Icon icon="ooui:watchlist-ltr" style={{ color: dark ? "#c5c6d0" : "#1f456e" }} />
       </IconButton>
       <button
+        title="change theme"
         id="themeButton"
         onClick={changeTheme}
       >

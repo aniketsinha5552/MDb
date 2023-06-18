@@ -62,7 +62,7 @@
     text-shadow: 0px 0px 2px #000000; */
     font-weight: 600;
     font-size: 3rem;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .movie__tagline{
@@ -164,6 +164,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
     max-width: 1000px;
+    padding: 20px;
     &::-webkit-scrollbar {
         width: 5px;
       }
@@ -191,6 +192,19 @@
     align-items: center;
     justify-content: center;
 }
+
+.watchlistAdd{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border:none;
+    background-color: rgb(31, 31, 71);
+    color: white;
+    &:hover{
+        background-color: rgb(68, 68, 99)
+    }
+}
+
 
 @media all and (max-width:650px){
     .movie__production {
