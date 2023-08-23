@@ -2,6 +2,8 @@
 
 ## https://mdb-movies.netlify.app/
 
+## React Native app : https://github.com/aniketsinha5552/MDb-mobile
+
 ### About
 A movie database website. Know all the details about your favourite movie like ratings and summary. Also get list of all the popular, top rated and latest movies.
 
